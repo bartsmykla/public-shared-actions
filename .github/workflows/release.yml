@@ -42,7 +42,6 @@ jobs:
             echo "has_package_changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-
   publish:
     name: publish
     needs: check_for_package_changes
